@@ -15,7 +15,7 @@ public class Algorithms {
 		
 		for (Boolean pearl : oysters) {
 			
-			pearl
+			pearl.
 			
 		}
 		
