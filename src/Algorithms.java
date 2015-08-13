@@ -81,20 +81,38 @@ public class Algorithms {
 		}
 		return false;
 	}
-	
-	public static List<double> sortScores(List<Double> results){
-		
-		List<double> sorted = 
-		
-		for(double d : results){
-			
-			for (int i = 0; i < ; i++) {
+
+	public static List<Double> sortScores(List<Double> results) {
+
+		double score;
+
+		int insert;
+
+		ArrayList<Double> sortedResults = new ArrayList<Double>();
+
+		for (int i = 0; i < results.size(); i++) {
+
+			score = results.get(i);
+
+			insert = 0;
+
+			for (int j = 0; j < sortedResults.size(); j++) {
+
+				if (sortedResults.get(j) > score) {
+
+					break;
+					
+				}
 				
+					insert++;
 			}
+
+			sortedResults.add(insert, score);
 			
+			System.out.println(sortedResults);
 		}
-		
-		return List<double>;
+
+		return sortedResults;
 	}
 
 }
