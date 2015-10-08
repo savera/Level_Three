@@ -34,7 +34,7 @@ public class Level3CodingExam {
 
 
 	/** If neither candidate has more votes than the other, report a tie by returning the String "TIE". **/
-	/*@Test
+	@Test
 	public void testATie() {
 		ArrayList<String> votes = new ArrayList<String>();
 		votes.add("pope francis");
